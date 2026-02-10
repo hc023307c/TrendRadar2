@@ -2,7 +2,7 @@ name: Get Hot News (LINE)
 
 on:
   schedule:
-    - cron: "0 22,4,10,14 * * *" # 每天6、12、18、22發訊息（格式UTC）
+    - cron: "0 0,6 * * *"  # 每天台灣時間 08:00、14:00（UTC）
   workflow_dispatch:
 
 concurrency:
